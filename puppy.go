@@ -1,6 +1,8 @@
 package puppy
 
-import dog1 "github.com/konduruganesh/dog1/com.dog"
+import (
+	dognew "github.com/konduruganesh/dognew"
+)
 
 func Bark() string {
 	return "Woff!"
@@ -10,6 +12,6 @@ func Barks() string {
 	return "Woof! woof! woof!"
 }
 
-func BigBark() string {
-	return dog1.WHenGrownUp("Big Bark")
+func BigBark() {
+	dognew.WhenGrownUp("Big Bark!!!!!")
 }
